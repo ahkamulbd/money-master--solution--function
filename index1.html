@@ -31,27 +31,28 @@
                 </tr>
                 <tr>
                     <td class="text-2xl my-2">Income:</td>
-                    <td><input class="p-2 my-2" type="text"></td>
+                    <td><input id="income-field" class="p-2 my-2" type="text"></td>
                 </tr>
                 <tr>
                     <td class="text-3xl font-semibold">Expenses</td>
                 </tr>
                 <tr>
                     <td class="text-2xl my-2">Food:</td>
-                    <td><input class="p-2 my-2" type="text"></td>
+                    <td><input id="food-expense" class="p-2 my-2" type="text"></td>
                 </tr>
                 <tr>
                     <td class="text-2xl my-2">Rent:</td>
-                    <td><input class="p-2 my-2" type="text"></td>
+                    <td><input id="rent-expense" class="p-2 my-2" type="text"></td>
                 </tr>
                 <tr>
                     <td class="text-2xl my-2">Clothes:</td>
-                    <td><input class="p-2 my-2" type="text"></td>
+                    <td><input id="clothes-expense" class="p-2 my-2" type="text"></td>
                 </tr>
             </table>
-            <button class="bg-blue-500 text-white text-2xl px-7 py-3 my-2 rounded-xl">Calculate</button>
-            <h2 class="text-3xl font-semibold">Total Expenses: <span>00</span></h2>
-            <h2 class="text-3xl font-semibold">Balance: <span>00</span></h2>
+            <button id="calculate-btn"
+                class="bg-blue-500 text-white text-2xl px-7 py-3 my-2 rounded-xl">Calculate</button>
+            <h2 class="text-3xl font-semibold">Total Expenses: <span id="total-expenses">00</span></h2>
+            <h2 class="text-3xl font-semibold">Balance: <span id="total-balance">00</span></h2>
             <div class="grid grid-cols-4 gap-1">
                 <h4 class="text-2xl my-2">Save</h4>
                 <input class="p-2 my-2 text-2xl text-center text-bold" type="text" name="" id="" value="20">
@@ -62,6 +63,9 @@
             <h2 class="text-3xl font-semibold">Remaining Balance: <span>00</span></h2>
         </div>
     </main>
+
+    <script src="js/utility.js"></script>
+    <script src="js/calculate.js"></script>
 </body>
 
 </html>
