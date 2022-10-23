@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=W, initial-scale=1.0">
+    <title>Money Master with Function</title>
+
+    <!-- Font AwesomeKit Link -->
+    <script src="https://kit.fontawesome.com/5b095c110d.js" crossorigin="anonymous"></script>
+
+    <!-- Tailwindcss Link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <header class="flex flex-row justify-center my-10">
+        <h1 class="text-4xl font-bold text-teal-500 mr-1">Money Master</h1>
+        <p><i class="fa-sharp fa-solid fa-sack-dollar text-4xl ml-1 text-amber-500"></i></p>
+    </header>
+
+    <main class="grid grid-cols-2 gap-4 mx-10 ">
+        <div class="">
+            <img class="w-screen" src="images/moneyMasterNew.jpg" alt="">
+        </div>
+        <div class="bg-gray-200 pt-10 pl-10 pr-5 space-y-2">
+            <table class="space-y-5">
+                <tr class="my-5">
+                    <td class="text-3xl font-semibold">Income</td>
+                </tr>
+                <tr>
+                    <td class="text-2xl my-2">Income:</td>
+                    <td><input class="p-2 my-2" type="text"></td>
+                </tr>
+                <tr>
+                    <td class="text-3xl font-semibold">Expenses</td>
+                </tr>
+                <tr>
+                    <td class="text-2xl my-2">Food:</td>
+                    <td><input class="p-2 my-2" type="text"></td>
+                </tr>
+                <tr>
+                    <td class="text-2xl my-2">Rent:</td>
+                    <td><input class="p-2 my-2" type="text"></td>
+                </tr>
+                <tr>
+                    <td class="text-2xl my-2">Clothes:</td>
+                    <td><input class="p-2 my-2" type="text"></td>
+                </tr>
+            </table>
+            <button class="bg-blue-500 text-white text-2xl px-7 py-3 my-2 rounded-xl">Calculate</button>
+            <h2 class="text-3xl font-semibold">Total Expenses: <span>00</span></h2>
+            <h2 class="text-3xl font-semibold">Balance: <span>00</span></h2>
+            <div class="grid grid-cols-4 gap-1">
+                <h4 class="text-2xl my-2">Save</h4>
+                <input class="p-2 my-2 text-2xl text-center text-bold" type="text" name="" id="" value="20">
+                <h4 class="text-2xl my-2 mx-10">%</h4>
+                <button class="bg-blue-500 text-white text-2xl px-7 py-3 my-2 rounded-xl">Save</button>
+            </div>
+            <h2 class="text-3xl font-semibold">Saving Amount: <span>00</span></h2>
+            <h2 class="text-3xl font-semibold">Remaining Balance: <span>00</span></h2>
+        </div>
+    </main>
+</body>
+
+</html>
